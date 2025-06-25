@@ -1,0 +1,24 @@
+{
+  "name": "t-18-install-prettier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.1",
+    "eslint": "8.56",
+    "eslint-config-prettier": "8.10",
+    "prettier": "^3.5.3",
+    "vite": "5.3.1"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
